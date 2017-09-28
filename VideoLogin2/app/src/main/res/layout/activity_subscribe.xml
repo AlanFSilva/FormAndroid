@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_subscribe"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="100dp"
+    tools:context="login.video.videologin.SubscribeActivity">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/email_login"
+        android:hint="Email"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/password_login"
+        android:hint="Senha"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/subscribeBtn"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:id="@+id/loginAct_btn"
+        android:onClick="onClick"
+        android:gravity="center"/>
+
+
+</LinearLayout>

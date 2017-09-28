@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/viewPagerDots">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/viewPager_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/text_of_viewpager"
+        android:layout_above="@+id/viewPager_Content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/viewPager_Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:keepScreenOn="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:maxLines="4"
+        android:lines="4"
+        android:gravity="center"
+        android:maxWidth="340dp"
+       />
+
+</RelativeLayout>

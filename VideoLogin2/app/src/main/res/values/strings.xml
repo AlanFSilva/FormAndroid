@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">VideoLogin</string>
+    <string name="loginBtn">Acessar</string>
+    <string name="subscribeBtn">Inscreva-se</string>
+    <string name="keepOnChk">Manter conectado</string>
+    <string name="restorePwd"> <a href="http://www.www.com"> Esqueci a senha </a> </string>
+    <string name="consultBtn">Consultar</string>
+    <string name="alertCpfContent">Erro</string>
+    <string name="alertCpfTitle">CPF não registrado</string>
+    <string name="alertCpfButton">Corrigir</string>
+
+    <!-- Array de Strings contendo os títulos dos page views -->
+    <string-array name="pagerTitles">
+        <item>New York</item>
+        <item>Empire State Building</item>
+        <item>Times Square </item>
+        <item>Central Park</item>
+        <item>Grand Central Terminal</item>
+    </string-array>
+
+    <!-- Array de Strings com o contéudo dos page views, relacionado ao título, prennecher nas mesma ordem -->
+    <string-array name="pagerContents">
+        <item>Is the most populous city in the United States. the city is the center of the New York metropolitan area.</item>
+        <item>Skyscraper located on Fifth Avenue between West 33rd and 34th Streets in Midtown . It has a roof height of 1,250 feet. </item>
+        <item>Is a major commercial intersection and neighborhood in Manhattan, at the junction of Broadway and Seventh Avenue.</item>
+        <item>Is an urban park in middle-upper Manhattan, within New York City. Is the most visited urban park in the United States.</item>
+        <item>Is a commuter, rapid transit and former intercity railroad terminal at 42nd Street and Park Avenue in New York City.</item>
+    </string-array>
+
+</resources>

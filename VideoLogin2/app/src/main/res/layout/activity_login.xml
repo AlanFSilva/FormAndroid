@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    tools:context="login.video.videologin.LoginActivity">
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/keepOn_chkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:text="@string/keepOnChk" />
+
+
+    <Button
+        android:id="@+id/loginAct_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/loginBtn"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:id="@+id/restorePwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/restorePwd"
+        android:textColorLink="?attr/colorPrimaryDark" />
+
+
+</LinearLayout>
